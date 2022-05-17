@@ -1,0 +1,10 @@
+# https://mulkkog.tistory.com/30?category=1261175
+
+def solution(s):
+    if len(s) == 4 or len(s) ==6:
+        if s.isdigit():
+            return True
+        else:
+            return False
+    else:
+        return False
